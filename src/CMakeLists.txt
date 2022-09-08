@@ -1,0 +1,3 @@
+add_subdirectory(thrustered_vehicle_motioncontroller)
+add_executable(example example.cpp)
+target_link_libraries(example $<TARGET_OBJECTS:thrustered_vehicle_motioncontroller>)
